@@ -1,7 +1,7 @@
 ### A simple Ransomware
 This is a simple **Ransomware** written in **Python** that encrypts files and it also comes with a decryptor:)
 
-*This was created for fun* and make sure to subscribe to [NetworkChuck](https://www.youtube.com/c/NetworkChuck)
+**This was created for fun** and make sure to subscribe to [NetworkChuck](https://www.youtube.com/c/NetworkChuck)
 
 Yes, I followed NetworkChuck's tutorial lol
 
