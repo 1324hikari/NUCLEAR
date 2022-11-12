@@ -1,3 +1,9 @@
+###
+## __NUCLEAR__
+![logo](logo.jpeg)
+###
+
+
 ### A simple Ransomware
 This is a simple **Ransomware** written in **Python** that encrypts files and it also comes with a decryptor:)
 
