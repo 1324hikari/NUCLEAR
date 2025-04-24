@@ -1,6 +1,6 @@
 ### Ransomware written in Python
 # Date : 01-24-23
-# Auth : Jy4n
+# Auth : Hikarii
 
 # Yes, I followed NetworkChucks's Tutorial
 
@@ -11,7 +11,7 @@ from Lib.decryptor import *
 def banner():
 	print("+-----------------+")
 	print("|---- NUCLEAR ----|")
-	print("|  -- By Jy4n --  |")
+	print("|-- Hikarii1324 --|")
 	print("+-----------------+")
 
 def clear_screen():
